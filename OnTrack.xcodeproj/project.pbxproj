@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560590B928AE8247002E139E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560590B828AE8247002E139E /* SettingsView.swift */; };
+		560590BB28AE8256002E139E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560590BA28AE8256002E139E /* MapView.swift */; };
+		560590BD28AEB24C002E139E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560590BC28AEB24C002E139E /* MainView.swift */; };
 		56623BC528879B2D002C59B9 /* OnTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56623BC428879B2D002C59B9 /* OnTrackApp.swift */; };
-		56623BC728879B2D002C59B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56623BC628879B2D002C59B9 /* ContentView.swift */; };
 		56623BC928879B34002C59B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56623BC828879B34002C59B9 /* Assets.xcassets */; };
 		56623BCC28879B34002C59B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56623BCB28879B34002C59B9 /* Preview Assets.xcassets */; };
 		56623BD628879B34002C59B9 /* OnTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56623BD528879B34002C59B9 /* OnTrackTests.swift */; };
 		56623BE028879B34002C59B9 /* OnTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56623BDF28879B34002C59B9 /* OnTrackUITests.swift */; };
 		56623BE228879B34002C59B9 /* OnTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56623BE128879B34002C59B9 /* OnTrackUITestsLaunchTests.swift */; };
+		567C6FDA28961E3200FD56B6 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C6FD928961E3200FD56B6 /* Routes.swift */; };
+		567C6FDC2897028C00FD56B6 /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C6FDB2897028C00FD56B6 /* Content-ViewModel.swift */; };
+		567C6FDE2897045A00FD56B6 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C6FDD2897045A00FD56B6 /* Database.swift */; };
+		5687FA9B289D87B800307DA2 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687FA9A289D87B800307DA2 /* RoutesView.swift */; };
+		568A141928B8FB1A00C0D9D1 /* TripsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 568A141728B8FB1A00C0D9D1 /* TripsContainer.xcdatamodeld */; };
+		568A141B28B90D6400C0D9D1 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A141A28B90D6400C0D9D1 /* AddTripView.swift */; };
+		568A141F28BA543D00C0D9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568A141E28BA543D00C0D9D1 /* LaunchScreen.storyboard */; };
+		568DD44C28A02E73007D6DE1 /* StopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD44B28A02E73007D6DE1 /* StopsView.swift */; };
+		568DD45028A169B0007D6DE1 /* MetroFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD44F28A169B0007D6DE1 /* MetroFeed.swift */; };
+		568DD45228A53E2C007D6DE1 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD45128A53E2C007D6DE1 /* Train.swift */; };
+		568DD45428A54A4B007D6DE1 /* DataFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD45328A54A4B007D6DE1 /* DataFetching.swift */; };
+		568DD45628A54C19007D6DE1 /* MinuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD45528A54C19007D6DE1 /* MinuteView.swift */; };
+		568DD45828A68193007D6DE1 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD45728A68193007D6DE1 /* PlannerView.swift */; };
+		568DD45D28A69503007D6DE1 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD45C28A69503007D6DE1 /* Station.swift */; };
+		568DD45F28A69540007D6DE1 /* PlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD45E28A69540007D6DE1 /* PlannerViewModel.swift */; };
+		568DD46128A6A396007D6DE1 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568DD46028A6A396007D6DE1 /* WebViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560590B828AE8247002E139E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		560590BA28AE8256002E139E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		560590BC28AEB24C002E139E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		56623BC128879B2D002C59B9 /* OnTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56623BC428879B2D002C59B9 /* OnTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTrackApp.swift; sourceTree = "<group>"; };
-		56623BC628879B2D002C59B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56623BC828879B34002C59B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56623BCB28879B34002C59B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		56623BD128879B34002C59B9 /* OnTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +64,22 @@
 		56623BDB28879B34002C59B9 /* OnTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56623BDF28879B34002C59B9 /* OnTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTrackUITests.swift; sourceTree = "<group>"; };
 		56623BE128879B34002C59B9 /* OnTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		567C6FD928961E3200FD56B6 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		567C6FDB2897028C00FD56B6 /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+		567C6FDD2897045A00FD56B6 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		5687FA9A289D87B800307DA2 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		568A141828B8FB1A00C0D9D1 /* TripsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripsContainer.xcdatamodel; sourceTree = "<group>"; };
+		568A141A28B90D6400C0D9D1 /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		568A141E28BA543D00C0D9D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568DD44B28A02E73007D6DE1 /* StopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsView.swift; sourceTree = "<group>"; };
+		568DD44F28A169B0007D6DE1 /* MetroFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroFeed.swift; sourceTree = "<group>"; };
+		568DD45128A53E2C007D6DE1 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		568DD45328A54A4B007D6DE1 /* DataFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetching.swift; sourceTree = "<group>"; };
+		568DD45528A54C19007D6DE1 /* MinuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteView.swift; sourceTree = "<group>"; };
+		568DD45728A68193007D6DE1 /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		568DD45C28A69503007D6DE1 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		568DD45E28A69540007D6DE1 /* PlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewModel.swift; sourceTree = "<group>"; };
+		568DD46028A6A396007D6DE1 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +131,14 @@
 			isa = PBXGroup;
 			children = (
 				56623BC428879B2D002C59B9 /* OnTrackApp.swift */,
-				56623BC628879B2D002C59B9 /* ContentView.swift */,
 				56623BC828879B34002C59B9 /* Assets.xcassets */,
+				568DD45A28A69470007D6DE1 /* Models */,
+				568DD45B28A69479007D6DE1 /* ViewModels */,
+				568DD45928A69469007D6DE1 /* Views */,
+				567C6FDD2897045A00FD56B6 /* Database.swift */,
+				568DD44F28A169B0007D6DE1 /* MetroFeed.swift */,
+				568DD45328A54A4B007D6DE1 /* DataFetching.swift */,
+				568DD45528A54C19007D6DE1 /* MinuteView.swift */,
 				56623BCA28879B34002C59B9 /* Preview Content */,
 			);
 			path = OnTrack;
@@ -125,6 +167,42 @@
 				56623BE128879B34002C59B9 /* OnTrackUITestsLaunchTests.swift */,
 			);
 			path = OnTrackUITests;
+			sourceTree = "<group>";
+		};
+		568DD45928A69469007D6DE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				568A141E28BA543D00C0D9D1 /* LaunchScreen.storyboard */,
+				560590BC28AEB24C002E139E /* MainView.swift */,
+				5687FA9A289D87B800307DA2 /* RoutesView.swift */,
+				568DD44B28A02E73007D6DE1 /* StopsView.swift */,
+				568DD45728A68193007D6DE1 /* PlannerView.swift */,
+				568A141A28B90D6400C0D9D1 /* AddTripView.swift */,
+				560590B828AE8247002E139E /* SettingsView.swift */,
+				560590BA28AE8256002E139E /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		568DD45A28A69470007D6DE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				568A141728B8FB1A00C0D9D1 /* TripsContainer.xcdatamodeld */,
+				567C6FD928961E3200FD56B6 /* Routes.swift */,
+				568DD45128A53E2C007D6DE1 /* Train.swift */,
+				568DD45C28A69503007D6DE1 /* Station.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		568DD45B28A69479007D6DE1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				567C6FDB2897028C00FD56B6 /* Content-ViewModel.swift */,
+				568DD45E28A69540007D6DE1 /* PlannerViewModel.swift */,
+				568DD46028A6A396007D6DE1 /* WebViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568A141F28BA543D00C0D9D1 /* LaunchScreen.storyboard in Resources */,
 				56623BCC28879B34002C59B9 /* Preview Assets.xcassets in Resources */,
 				56623BC928879B34002C59B9 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +336,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56623BC728879B2D002C59B9 /* ContentView.swift in Sources */,
+				568DD45628A54C19007D6DE1 /* MinuteView.swift in Sources */,
+				560590BD28AEB24C002E139E /* MainView.swift in Sources */,
+				567C6FDA28961E3200FD56B6 /* Routes.swift in Sources */,
+				567C6FDC2897028C00FD56B6 /* Content-ViewModel.swift in Sources */,
+				560590B928AE8247002E139E /* SettingsView.swift in Sources */,
+				568DD44C28A02E73007D6DE1 /* StopsView.swift in Sources */,
+				560590BB28AE8256002E139E /* MapView.swift in Sources */,
+				568DD45D28A69503007D6DE1 /* Station.swift in Sources */,
+				568A141928B8FB1A00C0D9D1 /* TripsContainer.xcdatamodeld in Sources */,
+				567C6FDE2897045A00FD56B6 /* Database.swift in Sources */,
+				568A141B28B90D6400C0D9D1 /* AddTripView.swift in Sources */,
+				568DD45428A54A4B007D6DE1 /* DataFetching.swift in Sources */,
+				568DD45028A169B0007D6DE1 /* MetroFeed.swift in Sources */,
+				568DD45F28A69540007D6DE1 /* PlannerViewModel.swift in Sources */,
+				5687FA9B289D87B800307DA2 /* RoutesView.swift in Sources */,
+				568DD45228A53E2C007D6DE1 /* Train.swift in Sources */,
 				56623BC528879B2D002C59B9 /* OnTrackApp.swift in Sources */,
+				568DD46128A6A396007D6DE1 /* WebViewModel.swift in Sources */,
+				568DD45828A68193007D6DE1 /* PlannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +518,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,6 +547,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,6 +675,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		568A141728B8FB1A00C0D9D1 /* TripsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				568A141828B8FB1A00C0D9D1 /* TripsContainer.xcdatamodel */,
+			);
+			currentVersion = 568A141828B8FB1A00C0D9D1 /* TripsContainer.xcdatamodel */;
+			path = TripsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 56623BB928879B2D002C59B9 /* Project object */;
 }
