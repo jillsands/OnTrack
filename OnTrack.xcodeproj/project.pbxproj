@@ -132,13 +132,10 @@
 			children = (
 				56623BC428879B2D002C59B9 /* OnTrackApp.swift */,
 				56623BC828879B34002C59B9 /* Assets.xcassets */,
+				568A142028BA9DA700C0D9D1 /* JSON Fetching (WIP) */,
 				568DD45A28A69470007D6DE1 /* Models */,
 				568DD45B28A69479007D6DE1 /* ViewModels */,
 				568DD45928A69469007D6DE1 /* Views */,
-				567C6FDD2897045A00FD56B6 /* Database.swift */,
-				568DD44F28A169B0007D6DE1 /* MetroFeed.swift */,
-				568DD45328A54A4B007D6DE1 /* DataFetching.swift */,
-				568DD45528A54C19007D6DE1 /* MinuteView.swift */,
 				56623BCA28879B34002C59B9 /* Preview Content */,
 			);
 			path = OnTrack;
@@ -167,6 +164,16 @@
 				56623BE128879B34002C59B9 /* OnTrackUITestsLaunchTests.swift */,
 			);
 			path = OnTrackUITests;
+			sourceTree = "<group>";
+		};
+		568A142028BA9DA700C0D9D1 /* JSON Fetching (WIP) */ = {
+			isa = PBXGroup;
+			children = (
+				568DD44F28A169B0007D6DE1 /* MetroFeed.swift */,
+				568DD45328A54A4B007D6DE1 /* DataFetching.swift */,
+				568DD45528A54C19007D6DE1 /* MinuteView.swift */,
+			);
+			path = "JSON Fetching (WIP)";
 			sourceTree = "<group>";
 		};
 		568DD45928A69469007D6DE1 /* Views */ = {
@@ -198,6 +205,7 @@
 		568DD45B28A69479007D6DE1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				567C6FDD2897045A00FD56B6 /* Database.swift */,
 				567C6FDB2897028C00FD56B6 /* Content-ViewModel.swift */,
 				568DD45E28A69540007D6DE1 /* PlannerViewModel.swift */,
 				568DD46028A6A396007D6DE1 /* WebViewModel.swift */,
